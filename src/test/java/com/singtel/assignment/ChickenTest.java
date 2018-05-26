@@ -4,14 +4,14 @@ import com.singtel.assignment.interfaces.Swimming;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static com.singtel.assignment.Chicken.Type.CHICKEN;
 import static com.singtel.assignment.Constants.CHICKEN_SOUND;
-import static com.singtel.assignment.Constants.SING;
 import static org.junit.Assert.*;
 
 public class ChickenTest extends BaseTest {
   @Test
   public void shouldPrintChickenSound() throws Exception {
-    Chicken chicken = new Chicken();
+    Chicken chicken = new Chicken(CHICKEN);
     chicken.sound();
     Assert.assertEquals(CHICKEN_SOUND + "\n", outContent.toString());
   }
