@@ -14,4 +14,6 @@ public interface Constants {
   String PHONE_RING = "Ring, ring";
   String SHARK_TYPE = "Large and grey";
   String CLOWNFISH_TYPE = "Small and colourful";
+  String CATERPILLAR_WALK = "I am crawling";
+  String JOKE = "I am joking";
 }
