@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static com.singtel.assignment.Constants.FLY;
 import static com.singtel.assignment.Constants.SING;
-import static com.singtel.assignment.Constants.DEFAULT_BIRD_SOUND;
+import static com.singtel.assignment.Constants.DEFAULT_ANIMAL_SOUND;
 
 public class BirdTest extends BaseTest {
 
@@ -32,7 +32,7 @@ public class BirdTest extends BaseTest {
   public void shouldPrintSoundString() throws Exception {
     Bird bird = new Bird();
     bird.sound();
-    Assert.assertEquals(DEFAULT_BIRD_SOUND + "\n", outContent.toString());
+    Assert.assertEquals(DEFAULT_ANIMAL_SOUND + "\n", outContent.toString());
   }
 
 }
