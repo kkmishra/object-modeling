@@ -29,12 +29,4 @@ public class BirdTest extends BaseTest {
     bird.sing();
     Assert.assertEquals(SING + "\n", outContent.toString());
   }
-
-  @Test
-  public void shouldPrintSoundString() throws Exception {
-    Bird bird = new Bird();
-    bird.sound();
-    Assert.assertEquals(DEFAULT_ANIMAL_SOUND + "\n", outContent.toString());
-  }
-
 }

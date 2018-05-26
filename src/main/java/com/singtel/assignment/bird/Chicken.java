@@ -1,9 +1,11 @@
 package com.singtel.assignment.bird;
 
+import com.singtel.assignment.interfaces.MakeSound;
+
 import static com.singtel.assignment.utils.Constants.CHICKEN_SOUND;
 import static com.singtel.assignment.utils.Constants.ROOSTER_SOUND;
 
-public class Chicken extends Bird {
+public class Chicken extends Bird implements MakeSound{
 
   private Type type;
 
