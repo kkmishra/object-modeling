@@ -8,4 +8,5 @@ public interface Constants {
   String SOUND = "Simple bird sound";
   String CHICKEN_SOUND = "Cluck, cluck";
   String DUCK_SOUND = "Quack, quack";
+  String ROOSTER_SOUND = "Cock-a-doodle-doo";
 }
