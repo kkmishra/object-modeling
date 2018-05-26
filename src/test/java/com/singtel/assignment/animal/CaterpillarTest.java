@@ -5,8 +5,7 @@ import com.singtel.assignment.interfaces.Flying;
 import org.junit.Test;
 
 import static com.singtel.assignment.utils.Constants.CATERPILLAR_WALK;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.*;
 
 public class CaterpillarTest extends BaseTest {
   @Test
@@ -15,10 +14,18 @@ public class CaterpillarTest extends BaseTest {
   }
 
   @Test
-  public void shouldPrintWalkForButterfly() throws Exception {
+  public void shouldPrintWalkForCaterpillar() throws Exception {
     Caterpillar caterpillar = new Caterpillar();
     caterpillar.walk();
     assertEquals(CATERPILLAR_WALK + "\n", outContent.toString());
   }
 
+  @Test
+  public void shouldReturnButterflyAfterMetamorphosis() throws Exception {
+    Caterpillar caterpillar = new Caterpillar();
+    ButterFly butterFly = caterpillar.metamorphosis();
+    assertNotNull(butterFly);
+    assertTrue(Flying.class.isAssignableFrom(butterFly.getClass()));
+    assertTrue(butterFly.getCaterpillar().equals(caterpillar));
+  }
 }

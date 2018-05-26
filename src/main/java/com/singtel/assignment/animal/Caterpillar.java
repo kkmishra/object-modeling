@@ -10,6 +10,6 @@ public class Caterpillar extends Animal {
   }
 
   public ButterFly metamorphosis() {
-    return new ButterFly();
+    return new ButterFly(this);
   }
 }
