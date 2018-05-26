@@ -1,13 +1,15 @@
 package com.singtel.assignment;
 
+import com.singtel.assignment.interfaces.MakeSound;
+
 public class Parrot extends Bird {
-  private Animal neighbor;
+  private MakeSound neighbor;
 
   public void sound() {
     neighbor.sound();
   }
 
-  public void setNeighbor(Animal neighbor) {
+  public void setNeighbor(MakeSound neighbor) {
     this.neighbor = neighbor;
   }
 }

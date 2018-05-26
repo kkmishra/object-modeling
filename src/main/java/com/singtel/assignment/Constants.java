@@ -11,4 +11,5 @@ public interface Constants {
   String ROOSTER_SOUND = "Cock-a-doodle-doo";
   String DOG_SOUND = "Woof, woof";
   String CAT_SOUND = "Meow";
+  String PHONE_RING = "Ring, ring";
 }
