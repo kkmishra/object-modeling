@@ -1,4 +1,4 @@
-package com.singtel.assignment;
+package com.singtel.assignment.bird;
 
 import com.singtel.assignment.interfaces.MakeSound;
 

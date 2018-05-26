@@ -1,6 +1,6 @@
-package com.singtel.assignment;
+package com.singtel.assignment.animal;
 
-import static com.singtel.assignment.Constants.DOG_SOUND;
+import static com.singtel.assignment.utils.Constants.DOG_SOUND;
 
 public class Dog extends Animal {
 

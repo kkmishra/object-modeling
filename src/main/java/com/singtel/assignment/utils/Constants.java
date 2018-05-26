@@ -1,4 +1,4 @@
-package com.singtel.assignment;
+package com.singtel.assignment.utils;
 
 public interface Constants {
   String WALK = "I am walking";
@@ -12,4 +12,6 @@ public interface Constants {
   String DOG_SOUND = "Woof, woof";
   String CAT_SOUND = "Meow";
   String PHONE_RING = "Ring, ring";
+  String SHARK_TYPE = "Large and grey";
+  String CLOWNFISH_TYPE = "Small and colourful";
 }

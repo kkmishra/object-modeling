@@ -1,9 +1,11 @@
-package com.singtel.assignment;
+package com.singtel.assignment.animal;
 
+import com.singtel.assignment.BaseTest;
+import com.singtel.assignment.animal.Animal;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.singtel.assignment.Constants.WALK;
+import static com.singtel.assignment.utils.Constants.WALK;
 
 public class AnimalTest extends BaseTest {
 

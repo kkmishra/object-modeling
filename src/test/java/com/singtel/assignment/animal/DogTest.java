@@ -1,11 +1,11 @@
-package com.singtel.assignment;
+package com.singtel.assignment.animal;
 
+import com.singtel.assignment.BaseTest;
+import com.singtel.assignment.animal.Dog;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.singtel.assignment.Constants.CAT_SOUND;
-import static com.singtel.assignment.Constants.DOG_SOUND;
-import static org.junit.Assert.*;
+import static com.singtel.assignment.utils.Constants.DOG_SOUND;
 
 public class DogTest extends BaseTest {
 

@@ -1,13 +1,13 @@
-package com.singtel.assignment;
+package com.singtel.assignment.bird;
 
+import com.singtel.assignment.BaseTest;
+import com.singtel.assignment.bird.Duck;
 import com.singtel.assignment.interfaces.Swimming;
-import com.sun.xml.internal.rngom.parse.host.Base;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.singtel.assignment.Constants.DUCK_SOUND;
-import static com.singtel.assignment.Constants.SING;
-import static com.singtel.assignment.Constants.SWIM;
+import static com.singtel.assignment.utils.Constants.DUCK_SOUND;
+import static com.singtel.assignment.utils.Constants.SWIM;
 import static org.junit.Assert.*;
 
 public class DuckTest extends BaseTest {

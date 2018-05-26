@@ -1,10 +1,12 @@
-package com.singtel.assignment;
+package com.singtel.assignment.bird;
 
+import com.singtel.assignment.BaseTest;
+import com.singtel.assignment.bird.Chicken;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.singtel.assignment.Chicken.Type.ROOSTER;
-import static com.singtel.assignment.Constants.ROOSTER_SOUND;
+import static com.singtel.assignment.bird.Chicken.Type.ROOSTER;
+import static com.singtel.assignment.utils.Constants.ROOSTER_SOUND;
 
 public class RoosterTest extends BaseTest {
   @Test

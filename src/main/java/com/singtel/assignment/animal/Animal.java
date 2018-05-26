@@ -1,12 +1,13 @@
-package com.singtel.assignment;
+package com.singtel.assignment.animal;
 
 import com.singtel.assignment.interfaces.MakeSound;
+import com.singtel.assignment.utils.Constants;
 
-import static com.singtel.assignment.Constants.DEFAULT_ANIMAL_SOUND;
+import static com.singtel.assignment.utils.Constants.DEFAULT_ANIMAL_SOUND;
 
 public class Animal implements MakeSound {
 
-  void walk() {
+  public void walk() {
     System.out.println(Constants.WALK);
   }
 

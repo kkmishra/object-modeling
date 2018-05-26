@@ -1,12 +1,17 @@
-package com.singtel.assignment;
+package com.singtel.assignment.bird;
 
-import com.singtel.assignment.Chicken.Type;
+import com.singtel.assignment.BaseTest;
+import com.singtel.assignment.Phone;
+import com.singtel.assignment.animal.Cat;
+import com.singtel.assignment.animal.Dog;
+import com.singtel.assignment.bird.Chicken;
+import com.singtel.assignment.bird.Duck;
+import com.singtel.assignment.bird.Parrot;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.singtel.assignment.Chicken.Type.ROOSTER;
-import static com.singtel.assignment.Constants.*;
-import static org.junit.Assert.*;
+import static com.singtel.assignment.bird.Chicken.Type.ROOSTER;
+import static com.singtel.assignment.utils.Constants.*;
 
 public class ParrotTest extends BaseTest {
   @Test

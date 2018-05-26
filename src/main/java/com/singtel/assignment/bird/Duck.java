@@ -1,9 +1,9 @@
-package com.singtel.assignment;
+package com.singtel.assignment.bird;
 
 import com.singtel.assignment.interfaces.Swimming;
 
-import static com.singtel.assignment.Constants.DUCK_SOUND;
-import static com.singtel.assignment.Constants.SWIM;
+import static com.singtel.assignment.utils.Constants.DUCK_SOUND;
+import static com.singtel.assignment.utils.Constants.SWIM;
 
 public class Duck extends Bird implements Swimming {
 

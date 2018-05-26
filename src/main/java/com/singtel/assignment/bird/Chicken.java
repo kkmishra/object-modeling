@@ -1,7 +1,7 @@
-package com.singtel.assignment;
+package com.singtel.assignment.bird;
 
-import static com.singtel.assignment.Constants.CHICKEN_SOUND;
-import static com.singtel.assignment.Constants.ROOSTER_SOUND;
+import static com.singtel.assignment.utils.Constants.CHICKEN_SOUND;
+import static com.singtel.assignment.utils.Constants.ROOSTER_SOUND;
 
 public class Chicken extends Bird {
 
@@ -21,7 +21,7 @@ public class Chicken extends Bird {
     }
   }
 
-  enum Type {
+  public enum Type {
     CHICKEN,
     ROOSTER
   }
