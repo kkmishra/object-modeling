@@ -1,9 +1,11 @@
 package com.singtel.assignment;
 
+import static com.singtel.assignment.Constants.SOUND;
+
 public class Bird extends Animal {
 
-  void fly() {
-    System.out.println(Constants.FLY);
+  public void sound() {
+    System.out.println(SOUND);
   }
 
   public void sing() {

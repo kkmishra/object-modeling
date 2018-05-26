@@ -7,7 +7,6 @@ import static com.singtel.assignment.Constants.WALK;
 
 public class AnimalTest extends BaseTest {
 
-
   @Test
   public void shouldPrintWalkString() throws Exception {
     Animal animal = new Animal();
