@@ -1,7 +1,6 @@
 package com.singtel.assignment.animal;
 
 import com.singtel.assignment.BaseTest;
-import com.singtel.assignment.animal.Dog;
 import org.junit.Assert;
 import org.junit.Test;
 

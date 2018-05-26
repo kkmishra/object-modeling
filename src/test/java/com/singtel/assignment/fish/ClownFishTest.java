@@ -6,7 +6,8 @@ import org.junit.Test;
 
 import static com.singtel.assignment.utils.Constants.CLOWNFISH_TYPE;
 import static com.singtel.assignment.utils.Constants.JOKE;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class ClownFishTest extends BaseTest {
   @Test

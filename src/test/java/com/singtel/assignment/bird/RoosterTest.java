@@ -1,7 +1,6 @@
 package com.singtel.assignment.bird;
 
 import com.singtel.assignment.BaseTest;
-import com.singtel.assignment.bird.Chicken;
 import org.junit.Assert;
 import org.junit.Test;
 

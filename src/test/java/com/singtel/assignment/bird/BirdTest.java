@@ -1,14 +1,12 @@
 package com.singtel.assignment.bird;
 
 import com.singtel.assignment.BaseTest;
-import com.singtel.assignment.bird.Bird;
 import com.singtel.assignment.interfaces.Flying;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static com.singtel.assignment.utils.Constants.FLY;
 import static com.singtel.assignment.utils.Constants.SING;
-import static com.singtel.assignment.utils.Constants.DEFAULT_ANIMAL_SOUND;
 
 public class BirdTest extends BaseTest {
 

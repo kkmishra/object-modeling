@@ -5,9 +5,8 @@ import com.singtel.assignment.interfaces.Flying;
 import org.junit.Test;
 
 import static com.singtel.assignment.utils.Constants.CATERPILLAR_WALK;
-import static com.singtel.assignment.utils.Constants.FLY;
-import static com.singtel.assignment.utils.Constants.WALK;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class CaterpillarTest extends BaseTest {
   @Test

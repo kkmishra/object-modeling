@@ -1,14 +1,13 @@
 package com.singtel.assignment.bird;
 
 import com.singtel.assignment.BaseTest;
-import com.singtel.assignment.bird.Duck;
 import com.singtel.assignment.interfaces.Swimming;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static com.singtel.assignment.utils.Constants.DUCK_SOUND;
 import static com.singtel.assignment.utils.Constants.SWIM;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class DuckTest extends BaseTest {
 

@@ -4,9 +4,6 @@ import com.singtel.assignment.BaseTest;
 import com.singtel.assignment.Phone;
 import com.singtel.assignment.animal.Cat;
 import com.singtel.assignment.animal.Dog;
-import com.singtel.assignment.bird.Chicken;
-import com.singtel.assignment.bird.Duck;
-import com.singtel.assignment.bird.Parrot;
 import org.junit.Assert;
 import org.junit.Test;
 

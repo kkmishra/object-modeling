@@ -1,14 +1,13 @@
 package com.singtel.assignment.bird;
 
 import com.singtel.assignment.BaseTest;
-import com.singtel.assignment.bird.Chicken;
 import com.singtel.assignment.interfaces.Swimming;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static com.singtel.assignment.bird.Chicken.Type.CHICKEN;
 import static com.singtel.assignment.utils.Constants.CHICKEN_SOUND;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
 
 public class ChickenTest extends BaseTest {
   @Test

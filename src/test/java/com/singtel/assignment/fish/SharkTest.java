@@ -5,7 +5,8 @@ import com.singtel.assignment.interfaces.Cannibal;
 import org.junit.Test;
 
 import static com.singtel.assignment.utils.Constants.SHARK_TYPE;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class SharkTest extends BaseTest {
   @Test
