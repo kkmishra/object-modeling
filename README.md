@@ -8,7 +8,9 @@ checkout to the first commit and review the code.
 Then checkout next commit to see the changes in subsequents commits.  
 
 For example run the following command
-git clone <repo-name>
+
+git clone https://github.com/kkmishra/object-modeling.git
+
 Checkout first commit to see the base structure.
 
 git checkout 4c7b5a4aaec159457952a600d06c8cbe30515ded
