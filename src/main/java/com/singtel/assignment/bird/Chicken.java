@@ -3,8 +3,7 @@ package com.singtel.assignment.bird;
 import com.singtel.assignment.interfaces.MakeSound;
 import com.singtel.assignment.utils.Constants;
 
-import static com.singtel.assignment.utils.Constants.CHICKEN_SOUND;
-import static com.singtel.assignment.utils.Constants.ROOSTER_SOUND;
+import static com.singtel.assignment.utils.MessagePrinter.printForKey;
 
 public class Chicken extends Bird implements MakeSound {
 
@@ -17,10 +16,10 @@ public class Chicken extends Bird implements MakeSound {
   public void sound() {
     switch (type) {
       case CHICKEN:
-        System.out.println(CHICKEN_SOUND);
+        printForKey("CHICKEN_SOUND");
         break;
       case ROOSTER:
-        System.out.println(ROOSTER_SOUND);
+        printForKey("ROOSTER_SOUND");
     }
   }
 
