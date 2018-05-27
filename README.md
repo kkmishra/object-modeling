@@ -21,3 +21,4 @@ git checkout 24a5078f498cbe28d53841c919677f2e6863e9e9
 
 and so on.   
 
+To check how to internationalize your java application check RoosterTest.java file
