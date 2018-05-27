@@ -16,4 +16,7 @@ public interface Constants {
   String CLOWNFISH_TYPE = "Small and colourful";
   String CATERPILLAR_WALK = "I am crawling";
   String JOKE = "I am joking";
+  String FISH_WALK = "Fish can not walk";
+  String DOLPHIN_WALK = "Dolphins can not walk";
+  String CHICKEN_FLY = "I can't fly";
 }

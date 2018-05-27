@@ -16,4 +16,8 @@ public class Duck extends Bird implements Swimming, MakeSound {
     System.out.println(SWIM);
   }
 
+  @Override
+  public boolean canSwim() {
+    return true;
+  }
 }

@@ -12,21 +12,21 @@ import static org.junit.Assert.assertTrue;
 public class DuckTest extends BaseTest {
 
   @Test
-  public void shouldPrintChickenSound() throws Exception {
+  public void shouldPrintChickenSound() {
     Duck duck = new Duck();
     duck.sound();
     Assert.assertEquals(DUCK_SOUND + "\n", outContent.toString());
   }
 
   @Test
-  public void shouldPrintSwim() throws Exception {
+  public void shouldPrintSwim() {
     Duck duck = new Duck();
     duck.swim();
     Assert.assertEquals(SWIM + "\n", outContent.toString());
   }
 
   @Test
-  public void shouldCheckThatDuckCanSwim() throws Exception {
+  public void shouldCheckThatDuckCanSwim() {
     assertTrue(Swimming.class.isAssignableFrom(Duck.class));
   }
 }

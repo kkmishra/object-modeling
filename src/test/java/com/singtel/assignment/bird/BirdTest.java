@@ -11,7 +11,7 @@ import static com.singtel.assignment.utils.Constants.SING;
 public class BirdTest extends BaseTest {
 
   @Test
-  public void shouldPrintFlyString() throws Exception {
+  public void shouldPrintFlyString() {
     Flying bird = new Flying() {
       public void fly() {
         System.out.println(FLY);
@@ -22,7 +22,7 @@ public class BirdTest extends BaseTest {
   }
 
   @Test
-  public void shouldPrintSingString() throws Exception {
+  public void shouldPrintSingString() {
     Bird bird = new Bird();
     bird.sing();
     Assert.assertEquals(SING + "\n", outContent.toString());

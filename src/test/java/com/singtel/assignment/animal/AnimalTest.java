@@ -9,7 +9,7 @@ import static com.singtel.assignment.utils.Constants.WALK;
 public class AnimalTest extends BaseTest {
 
   @Test
-  public void shouldPrintWalkString() throws Exception {
+  public void shouldPrintWalkString() {
     Animal animal = new Animal();
     animal.walk();
     Assert.assertEquals(WALK + "\n", outContent.toString());

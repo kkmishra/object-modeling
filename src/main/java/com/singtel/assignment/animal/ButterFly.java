@@ -8,7 +8,7 @@ public class ButterFly extends Animal implements Flying {
 
   private Caterpillar caterpillar;
 
-  ButterFly(Caterpillar caterpillar) {
+  public ButterFly(Caterpillar caterpillar) {
     this.caterpillar = caterpillar;
   }
 
@@ -18,5 +18,10 @@ public class ButterFly extends Animal implements Flying {
 
   public Caterpillar getCaterpillar() {
     return caterpillar;
+  }
+
+  @Override
+  public boolean canFly() {
+    return true;
   }
 }

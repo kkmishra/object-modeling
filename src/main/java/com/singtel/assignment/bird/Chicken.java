@@ -1,11 +1,12 @@
 package com.singtel.assignment.bird;
 
 import com.singtel.assignment.interfaces.MakeSound;
+import com.singtel.assignment.utils.Constants;
 
 import static com.singtel.assignment.utils.Constants.CHICKEN_SOUND;
 import static com.singtel.assignment.utils.Constants.ROOSTER_SOUND;
 
-public class Chicken extends Bird implements MakeSound{
+public class Chicken extends Bird implements MakeSound {
 
   private Type type;
 
@@ -21,6 +22,11 @@ public class Chicken extends Bird implements MakeSound{
       case ROOSTER:
         System.out.println(ROOSTER_SOUND);
     }
+  }
+
+  @Override
+  public void fly() {
+    System.out.println(Constants.CHICKEN_FLY);
   }
 
   public enum Type {

@@ -12,7 +12,7 @@ import static com.singtel.assignment.utils.Constants.*;
 
 public class ParrotTest extends BaseTest {
   @Test
-  public void shouldMakeSoundLikeDog() throws Exception {
+  public void shouldMakeSoundLikeDog() {
     Parrot parrot = new Parrot();
     parrot.setNeighbor(new Dog());
     parrot.sound();
@@ -20,7 +20,7 @@ public class ParrotTest extends BaseTest {
   }
 
   @Test
-  public void shouldMakeSoundLikeCat() throws Exception {
+  public void shouldMakeSoundLikeCat() {
     Parrot parrot = new Parrot();
     parrot.setNeighbor(new Cat());
     parrot.sound();
@@ -28,7 +28,7 @@ public class ParrotTest extends BaseTest {
   }
 
   @Test
-  public void shouldMakeSoundLikeRooster() throws Exception {
+  public void shouldMakeSoundLikeRooster() {
     Parrot parrot = new Parrot();
     parrot.setNeighbor(new Chicken(ROOSTER));
     parrot.sound();
@@ -36,7 +36,7 @@ public class ParrotTest extends BaseTest {
   }
 
   @Test
-  public void shouldMakeSoundLikeDuck() throws Exception {
+  public void shouldMakeSoundLikeDuck() {
     Parrot parrot = new Parrot();
     parrot.setNeighbor(new Duck());
     parrot.sound();
@@ -44,7 +44,7 @@ public class ParrotTest extends BaseTest {
   }
 
   @Test
-  public void shouldMakeSoundLikePhone() throws Exception {
+  public void shouldMakeSoundLikePhone() {
     Parrot parrot = new Parrot();
     parrot.setNeighbor(new Phone());
     parrot.sound();

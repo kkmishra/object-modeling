@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 
 public class ButterFlyTest extends BaseTest {
   @Test
-  public void shouldPrintFlyingForButterfly() throws Exception {
+  public void shouldPrintFlyingForButterfly() {
     ButterFly butterFly = new ButterFly(new Caterpillar());
     butterFly.fly();
     assertEquals(FLY + "\n", outContent.toString());
