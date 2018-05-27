@@ -27,4 +27,9 @@ public abstract class Fish extends Animal implements Swimming {
   public boolean canWalk() {
     return false;
   }
+
+  @Override
+  public boolean canSing() {
+    return false;
+  }
 }

@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import static com.singtel.assignment.utils.Constants.FLY;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class ButterFlyTest extends BaseTest {
   @Test
@@ -12,5 +13,11 @@ public class ButterFlyTest extends BaseTest {
     ButterFly butterFly = new ButterFly(new Caterpillar());
     butterFly.fly();
     assertEquals(FLY + "\n", outContent.toString());
+  }
+
+  @Test
+  public void shouldTestThatButterflyCanNotMakeSound() {
+    ButterFly butterFly = new ButterFly(new Caterpillar());
+    assertFalse(butterFly.canMakeSound());
   }
 }

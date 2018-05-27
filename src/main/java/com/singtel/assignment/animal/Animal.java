@@ -27,5 +27,4 @@ public class Animal implements Walker {
   public boolean canMakeSound() {
     return true;
   }
-
 }

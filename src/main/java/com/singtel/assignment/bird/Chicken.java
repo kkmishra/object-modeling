@@ -29,6 +29,11 @@ public class Chicken extends Bird implements MakeSound {
     System.out.println(Constants.CHICKEN_FLY);
   }
 
+  @Override
+  public boolean canFly() {
+    return false;
+  }
+
   public enum Type {
     CHICKEN,
     ROOSTER

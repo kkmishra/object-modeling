@@ -21,6 +21,13 @@ public class CaterpillarTest extends BaseTest {
   }
 
   @Test
+  public void shouldTestThatACaterpillarCanNotFly() {
+    Caterpillar caterpillar = new Caterpillar();
+    assertFalse(caterpillar.canFly());
+  }
+
+
+  @Test
   public void shouldReturnButterflyAfterMetamorphosis() {
     Caterpillar caterpillar = new Caterpillar();
     ButterFly butterFly = caterpillar.metamorphosis();

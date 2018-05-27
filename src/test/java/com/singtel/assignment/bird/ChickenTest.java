@@ -9,6 +9,7 @@ import static com.singtel.assignment.bird.Chicken.Type.CHICKEN;
 import static com.singtel.assignment.utils.Constants.CHICKEN_FLY;
 import static com.singtel.assignment.utils.Constants.CHICKEN_SOUND;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class ChickenTest extends BaseTest {
   @Test
@@ -28,5 +29,11 @@ public class ChickenTest extends BaseTest {
     Chicken chicken = new Chicken(CHICKEN);
     chicken.fly();
     Assert.assertEquals(CHICKEN_FLY + "\n", outContent.toString());
+  }
+
+  @Test
+  public void shouldTestCanFlyMethod() {
+    Chicken chicken = new Chicken(CHICKEN);
+    assertFalse(chicken.canFly());
   }
 }

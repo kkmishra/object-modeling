@@ -24,4 +24,9 @@ public class ButterFly extends Animal implements Flying {
   public boolean canFly() {
     return true;
   }
+
+  @Override
+  public boolean canMakeSound() {
+    return false;
+  }
 }
